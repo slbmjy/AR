@@ -1,7 +1,8 @@
+<head>
 <meta http-equiv='cache-control' content='no-cache'> 
 <meta http-equiv='expires' content='0'> 
 <meta http-equiv='pragma' content='no-cache'>
-
+</head>
 <!-- include A-Frame obviously -->
 <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
 <!-- include ar.js for A-Frame -->
@@ -20,7 +21,7 @@
     <a-asset-item id="tree-mtl" src="Cone.mtl"></a-asset-item>
   </a-assets>
 
-  <a-entity scale="0.001 0.01 0.01" obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
+  <a-entity scale="0.02 0.01 0.01" obj-model="obj: #tree-obj; mtl: #tree-mtl"></a-entity>
     <!-- define a camera which will move according to the marker position -->
     <a-marker-camera preset='hiro'></a-marker-camera>
   </a-scene>
